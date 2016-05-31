@@ -1,8 +1,8 @@
-require "rubygems"
-require "rake"
+require "bundler"
+Bundler.setup
+
 $:.unshift File.join(File.dirname(__FILE__), "lib")
 
-require "rspec/core"
 require "rspec/core/rake_task"
 
 RSpec::Core::RakeTask.new("spec")
