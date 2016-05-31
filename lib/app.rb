@@ -4,5 +4,6 @@ module App
   end
 
   def bye
+    "bye"
   end
 end
